@@ -50,7 +50,7 @@ paths:
       x-quantumCode: null
       x-quantumProvider: 'ibm'
       
-  /circuit/parameterizedQASM:
+  /circuit/parameterizedChemnitz:
     post:
       tags:
         - quantum_code
