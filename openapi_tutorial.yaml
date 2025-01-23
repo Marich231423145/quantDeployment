@@ -15,7 +15,7 @@ tags:
     description: Everything about your quantum service code and circuits
 paths:
 
-  /circuit/maxcut3qubitsChemnitz:
+  /circuit/Chemnitz:
     post:
       tags:
         - quantum_code
@@ -50,7 +50,7 @@ paths:
       x-quantumCode: null
       x-quantumProvider: 'ibm'
       
-  /circuit/parameterizedChemnitz:
+  /circuit/Chemnitz:
     post:
       tags:
         - quantum_code
@@ -91,7 +91,7 @@ paths:
       x-quantumCode: null
       x-quantumProvider: 'ibm'
 
-  /circuit/ShorAWSquirk:
+  /circuit/Chemnitz:
     get:
       tags:
         - quantum_code
@@ -125,7 +125,7 @@ paths:
       x-quantumCode: 'https://algassert.com/quirk#circuit={"cols":[["H","H","H","H"],["X"],["X","X","X","X"],[1,"•","X"],[1,"X","•"],[1,"•","X"],[1,1,"•","X"],[1,1,"X","•"],[1,1,"•","X"],["•",1,1,"X"],["X",1,1,"•"],["•",1,1,"X"],["Measure","Measure","Measure","Measure"]]}'
       x-quantumProvider: 'aws'
   
-  /circuit/ShorIBMqiskit:
+  /circuit/Chemnitz:
     get:
       tags:
         - quantum_code
@@ -309,7 +309,7 @@ paths:
       x-quantumCode: 'https://bitbucket.org/spilab/quantum-circuits-code/raw/1ab019ea64f58ad36063025bd0c75ac71a8d552a/Popular/Bernstein-Vazirani.py'
       x-quantumProvider: 'ibm'
   
-  /circuit/GroverIBMquirk:
+  /circuit/Chemnitz:
     get:
       tags:
         - quantum_code
@@ -343,7 +343,7 @@ paths:
       x-quantumCode: 'https://algassert.com/quirk#circuit={"cols":[["H","H"],[1,"X"],[1,"H"],["•","X"],[1,"H"],[1,"X"],[1,"H"],[1,"Measure"]]}'
       x-quantumProvider: 'ibm'
   
-  /circuit/GroverIBMqiskit:
+  /circuit/Chemnitz:
     get:
       tags:
         - quantum_code
@@ -445,7 +445,7 @@ paths:
       x-quantumCode: 'https://bitbucket.org/spilab/quantum-circuits-code/raw/0a90a21154f2496eb6329dcd3b211baaf0ebd40a/Popular/Deutsch%E2%80%93Jozsa_algorithm.py'
       x-quantumProvider: 'ibm'
   
-  /circuit/SimonIBMquirk:
+  /circuit/Chemnitz:
     get:
       tags:
         - quantum_code
@@ -479,7 +479,7 @@ paths:
       x-quantumCode: 'https://algassert.com/quirk#circuit={"cols":[["H","H","H"],["•",1,1,"X"],[1,"•",1,1,"X"],[1,1,"•",1,1,"X"],[1,"•",1,1,"X"],[1,"•",1,1,1,"X"],["H","H","H"],["Measure","Measure","Measure"]]}'
       x-quantumProvider: 'ibm' 
       
-  /circuit/SimonIBMqiskit:
+  /circuit/Chemnitz:
     get:
       tags:
         - quantum_code
